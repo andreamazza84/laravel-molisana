@@ -143,10 +143,9 @@ Route::get('/prodotti', function () {
     ]';
 
 
-    $data = json_decode($json, true);
+    $json = json_decode($json, true);
     //var_dump($data);
-
-    return view('prodotti');
+    return view('prodotti', compact('json'));
 });
 
 Route::get('/contatti', function () {
