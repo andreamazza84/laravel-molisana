@@ -6,9 +6,9 @@
     </div>
     <nav id="navbar">
         <ul class="menu">
-            <li><a href="{{url('welcome')}}">home</a></li>
-            <li><a href="{{url('prodotti')}}">prodotti</a></li>
-            <li><a href="{{url('contatti')}}">contatti</a></li>
+            <li class="link"><a href="{{url('')}}">home</a></li>
+            <li class="link"><a href="{{url('prodotti')}}">prodotti</a></li>
+            <li class="link"><a href="{{url('contatti')}}">contatti</a></li>
         </ul>
     </nav>
     <!-- /#navbar -->
