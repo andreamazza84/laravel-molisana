@@ -5,12 +5,12 @@
         @foreach($json as $item)
         <div class="card">
             <div class="item">
-                <!-- <div class="img"></div> -->
-                <img src="{{$item['src']}}" alt="pasta">
+                <div class="img" style="background-image: url({{ $item['src'] }})"></div>
+                <!-- <img src="{{$item['src']}}" alt="pasta"> -->
                 <div class="overlay">
                     <img class="icon" src="img/icon.svg" alt="icon">
-                    <p class="titolo">{{$item['titolo']}}</p>
-                    <p class="cottura">{{$item['cottura']}}</p>
+                    <h3><em class="cottura">cottura: {{$item['cottura']}}</em></h3>
+                    <!-- <h3 class="titolo">{{$item['titolo']}}</h3> -->
                 </div>
             </div>
         </div>

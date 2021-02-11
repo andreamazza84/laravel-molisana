@@ -9,6 +9,7 @@ $bg-filter: rgba(0,0,0,0.5);
 
 $fnt-primary: #777;
 $fnt-hover: #002d75;
+$fnt-filter: #444;
 
 //wallpaper
 $bg-wallpaper: url(../img/fondo-pag-speciali.jpg);
@@ -22,6 +23,8 @@ $bg-wallpaper: url(../img/fondo-pag-speciali.jpg);
 body{
     background-color: $bg-primary;
     font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-stretch: 0.1em;
 }
 .container{
     width: 80%;
