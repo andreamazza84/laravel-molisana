@@ -1,4 +1,4 @@
-@extends ('layout.header')
+@extends ('layout.prodotti')
 @section('title')
 Ciao
 @endsection
