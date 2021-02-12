@@ -27,10 +27,10 @@ Route::get('/contatti', function () {
     return view('contatti');
 })->name('contatti');
 
-Route::get('/prodotti-id/{id}', function($id) {
+Route::get('/prodotti/{id}', function ($id) {
     $json = config('data.json');
     $data = json_decode($json, true);
     $item = $data[$id];
     dd($item);
-    return view('prodotti-id', compact('id'));
-})->name('prodotti-id');
+    return view('prodotti', compact('item'));
+})->name('prodotti.id');

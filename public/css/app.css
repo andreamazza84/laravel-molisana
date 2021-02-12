@@ -110,15 +110,21 @@ ul li a {
 
 #prodotti {
   min-height: 600px;
-  padding: 30px 0;
   background-image: url(../img/fondo-pag-speciali.jpg);
   background-size: cover;
+}
+#prodotti h1 {
+  text-align: center;
+  background-color: #001942;
+  color: #f7f7f7;
+  font-weight: 200;
+  margin-bottom: 30px;
 }
 #prodotti .flex-container {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 #prodotti .card {
@@ -127,7 +133,6 @@ ul li a {
   height: 400px;
   padding: 30px 20px;
   transition: padding 0.3s;
-  background-position: center;
 }
 #prodotti .card:hover {
   padding: 15px 10px;
@@ -141,7 +146,9 @@ ul li a {
   display: block;
   height: 100%;
   width: 100%;
-  background-size: contain;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #prodotti .card .item .overlay {
   display: flex;

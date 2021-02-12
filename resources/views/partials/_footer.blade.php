@@ -53,15 +53,15 @@
                     <div class="col-25">
                         <ul class="menu">
                             <li><a href="#">>> E-commerce </a></li>
-                            <li><a href="#">>>b2b</a></li>
-                            <li><a href="#">>>comunicazione</a></li>
-                            <li><a href="#">>>scarica i cataloghi</a></li>
-                            <li><a href="#">>>rassegna stampa</a></li>
-                            <li><a href="#">>>video</a></li>
-                            <li><a href="#">>>contatti</a></li>
-                            <li><a href="#">>>lavora con noi</a></li>
-                            <li><a href="#">>>certificazioni</a></li>
-                            <li><a href="#">>>privacy policy</a></li>
+                            <li><a href="#">>> b2b</a></li>
+                            <li><a href="#">>> comunicazione</a></li>
+                            <li><a href="#">>> scarica i cataloghi</a></li>
+                            <li><a href="#">>> rassegna stampa</a></li>
+                            <li><a href="#">>> video</a></li>
+                            <li><a href="#">>> contatti</a></li>
+                            <li><a href="#">>> lavora con noi</a></li>
+                            <li><a href="#">>> certificazioni</a></li>
+                            <li><a href="#">>> privacy policy</a></li>
                         </ul>
                     </div>
                     <div class="col-25">

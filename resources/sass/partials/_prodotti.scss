@@ -1,14 +1,20 @@
 #prodotti{
     min-height: 600px;
-    padding: 30px 0;
     background-image: $bg-wallpaper; 
     background-size: cover;
+    h1{
+        text-align: center;
+        background-color: $bg-footer-top;
+        color: $fnt-secundary;
+        font-weight: 200;
+        margin-bottom: 30px;
+    }
     .flex-container{
         width: 100%;
         height: 100%;
         display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-wrap: wrap;
     }
     .card{
         display: flex;
@@ -16,7 +22,6 @@
         height: 400px;
         padding: 30px 20px;
         transition: padding 0.3s;
-        background-position: center;
         &:hover{
             padding: 15px 10px;
         }
@@ -28,7 +33,9 @@
                 display: block;
                 height: 100%;
                 width: 100%;
-                background-size: contain;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
             }
             .overlay{
                 display: flex;

@@ -6,7 +6,7 @@
 
 @section('contacts')
     <div id="contacts" class="container">
-        <h1>Contatti</h1>
+        <h1>Contattaci</h1>
         <form action="#">
             <label for="name">Nome:</label>
             <input type="text" name="name" id="name">
